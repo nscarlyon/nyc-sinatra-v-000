@@ -1,0 +1,4 @@
+<h1>List of Landmarks</h1>
+<% Landmark.all.each do |landmark| %>
+<p>Name: <%= landmark.name %> Year Completed: <%= landmark.year_completed %></p>
+<%end%>
